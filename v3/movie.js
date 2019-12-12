@@ -1,5 +1,5 @@
 const movie = function (rtm, channel) {
-  console.log('영화를 추천합니다.');
+  console.log('jenkins!! 영화를 추천합니다.');
   rtm.sendMessage('취향에 맞는 영화를 추천해드릴께요', channel);
 
 //	rtm.sendMessage('좋아하는 영화 하나좀 알려주실래요?',channel);
