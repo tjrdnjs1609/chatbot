@@ -42,7 +42,7 @@ rtm.on('message', function (message) {
 				break;
 			case 2:
 				console.log("보낸 메시지 : 영화 ");
-				if(text != "취향에 맞는 영화를 추천해드릴께요" ) {
+				if(text != "jenkins!취향에 맞는 영화를 추천해드릴께요" ) {
 					console.log("테스트 실패 : 영화 ");
 					process.exit(1);
 				}
