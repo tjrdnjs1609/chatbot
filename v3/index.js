@@ -11,10 +11,10 @@ const food = require('./food');
 const movie = require('./movie');
 
 rtm.on('message', (message) => {
-  const  channel  = message;
-  const  text  = message;
-	console.log(channel);
-	console.log('유저 메시지값');
+  const  channel  = message.channel;
+  const  text  = message.text;
+//	console.log(channel);
+//	console.log('유저 메시지값');
 	console.log(message.user);
   switch (text) {
   case '영화':
