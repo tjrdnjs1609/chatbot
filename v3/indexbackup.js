@@ -11,8 +11,8 @@ const food = require('./food');
 const movie = require('./movie');
 
 rtm.on('message', (message) => {
-  const  channel  = message;
-  const  text  = message;
+  const { channel } = message;
+  const { text } = message;
 	console.log(channel);
 	console.log('유저 메시지값');
 	console.log(message.user);
@@ -30,7 +30,7 @@ rtm.on('message', (message) => {
     break;
   default:
     rtm.sendMessage('안녕해사에ㅛ .영화 놀이 밥 중에 말씀하세요', channel);
-
+	break;
   }
 });
 
